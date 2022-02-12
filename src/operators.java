@@ -23,6 +23,6 @@ public class operators {
 
 //        ++n; //pre-increment
 //        n++; //post-increment
-        
+
     }
 }
