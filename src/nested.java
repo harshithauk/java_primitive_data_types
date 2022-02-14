@@ -39,6 +39,17 @@ public class nested {
             System.out.println();
         }
 
+//        Using break and continue statements
+        for (int i=1;i<=10;i++){
+            if(i==2){
+                continue;
+            }
+            if(i>7){
+                break;
+            }
+            System.out.println("Value is: "+i);
+        }
+
 
 
     }
