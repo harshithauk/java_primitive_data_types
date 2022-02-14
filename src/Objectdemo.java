@@ -18,7 +18,7 @@ class Calc{
 }
 
 public class Objectdemo {
-    public static void main(String[] args){
-        Calc obj = new Calc();
-
+    public static void main(String[] args) {
+        Calc obj = new Calc(5, 5);
+    }
 }
