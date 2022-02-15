@@ -17,10 +17,9 @@ class Emp{
     }
 }
 public class StaticDemo {
-    static int id = 5;
     public static void main(String[] args){
         Emp navin = new Emp();
-        navin.eid = id;
+        navin.eid = 8;
         navin.salary = 50000;
 //        navin.ceo = "mohit";
 
