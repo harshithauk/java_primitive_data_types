@@ -17,6 +17,6 @@ class Z1{
 public class FinalDemo {
     public static void main(String[] args){
         Z obj = new Z();
-        System.out.println(obj.i);
+        System.out.println(obj.DAY);
     }
 }
