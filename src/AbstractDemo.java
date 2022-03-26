@@ -1,19 +1,19 @@
 abstract class Write{
     public abstract void write();
 }
-class Pen extends Writer {
+class Pen extends Write {
     public void write(){
         System.out.println("Im a Pen");
     }
 }
-class Pencil extends Writer {
+class Pencil extends Write {
 
     public void write() {
         System.out.println("Im a Pencil");
     }
 }
 class Kit{
-    public void doSomething(Writer p){
+    public void doSomething(Write p){
         p.write();
     }
 }
@@ -21,8 +21,8 @@ class Kit{
 public class AbstractDemo {
     public static void main(String[] args){
         Kit kit = new Kit();
-        Writer p = new Pen();
-        Writer pc = new Pencil();
+        Write p = new Pen();
+        Write pc = new Pencil();
         kit.doSomething(p);
     }
 }
